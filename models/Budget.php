@@ -9,9 +9,9 @@ use Yii;
  *
  * @property int $id
  * @property string $title
- * @property string category
- * @property string type
- * @property string amount
+ * @property string $category
+ * @property string $type
+ * @property string $amount
  * @property string $date
  * @property int $author
  */
