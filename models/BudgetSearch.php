@@ -19,7 +19,7 @@ class BudgetSearch extends Budget
     {
         return [
             [['id', 'amount', 'author'], 'integer'],
-            [['title', 'category', 'type', 'date', 'createdate'], 'safe'],
+            [['title', 'category', 'type', 'date'], 'safe'],
         ];
     }
 
